@@ -1,0 +1,120 @@
+{
+  "id": "pleasant",
+  "emoji": "🌿",
+  "title": "Perfect Weather",
+  "headline": "Comfortable temperature and gentle conditions. Make the most of it.",
+  "scores": {
+    "comfort": 95,
+    "outdoor": 98,
+    "driving": 95,
+    "exercise": 95,
+    "uvRisk": "moderate"
+  },
+  "quick": [
+    "Take that walk or ride today",
+    "Open the windows and let fresh air in",
+    "Good day to meet people outdoors"
+  ],
+  "notification": "Lovely weather today. Time to get outside.",
+  "wear": {
+    "top": "Comfortable t-shirt or light shirt",
+    "bottom": "Light pants or shorts",
+    "shoes": "Your favorite sneakers",
+    "extras": [
+      "Sunglasses",
+      "Thin layer for the evening"
+    ]
+  },
+  "carry": [
+    "Water bottle",
+    "Sunglasses",
+    "Light layer"
+  ],
+  "health": {
+    "do": [
+      "Get at least 30 minutes of outdoor time",
+      "Ventilate your home",
+      "Stay hydrated"
+    ],
+    "avoid": [
+      "Spending the whole day indoors",
+      "Skipping sunscreen out of habit"
+    ],
+    "watchFor": [
+      "Pollen if you have seasonal allergies",
+      "Evening chill after sunset"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Picnic or park visit",
+      "Run, ride, or hike",
+      "Outdoor meetup",
+      "Try a new route"
+    ],
+    "indoor": [
+      "Cooking with fresh ingredients",
+      "Creative hobbies by an open window"
+    ],
+    "bestTime": "Anytime; late afternoon is best"
+  },
+  "travel": [
+    "Great day to walk or cycle instead of driving",
+    "Scenic drive with the windows down"
+  ],
+  "home": [
+    "Open windows for cross ventilation",
+    "Dry laundry outside",
+    "Give the AC and heater a rest"
+  ],
+  "people": {
+    "kids": "Perfect for outdoor play; sunscreen and water.",
+    "elderly": "Nice for a gentle walk and social time outdoors.",
+    "pets": "Long walks and park time are ideal.",
+    "commuters": "Walk or cycle part of the way.",
+    "athletes": "Great day for a quality session or a long run."
+  },
+  "rules": [
+    {
+      "when": {
+        "pollenLevel": {
+          "gte": 4
+        }
+      },
+      "tip": "High pollen: shower after outdoor time and keep windows closed at night.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "uvIndex": {
+          "gte": 6
+        }
+      },
+      "tip": "Comfortable but UV is high: sunscreen still matters.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 17,
+          "lte": 19
+        }
+      },
+      "tip": "Golden hour is perfect for a walk.",
+      "priority": "low"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 20
+        }
+      },
+      "tip": "It cools after sunset; carry a thin layer.",
+      "priority": "low"
+    }
+  ],
+  "commonMistakes": [
+    "Wasting the day indoors",
+    "Forgetting sunscreen because it's not hot"
+  ]
+}

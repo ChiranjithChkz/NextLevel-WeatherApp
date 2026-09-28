@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "fallback": "pleasant",
+  "resolve": [
+    {
+      "key": "snow",
+      "when": {
+        "owmGroup": [
+          6
+        ]
+      }
+    },
+    {
+      "key": "rain",
+      "when": {
+        "owmGroup": [
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "key": "fog",
+      "when": {
+        "owmId": [
+          701,
+          711,
+          721,
+          731,
+          741,
+          751,
+          761,
+          762,
+          771,
+          781
+        ]
+      }
+    },
+    {
+      "key": "hot",
+      "when": {
+        "tempC": {
+          "gte": 35
+        }
+      }
+    },
+    {
+      "key": "cold",
+      "when": {
+        "tempC": {
+          "lte": 12
+        }
+      }
+    },
+    {
+      "key": "cloudy",
+      "when": {
+        "owmId": [
+          803,
+          804
+        ]
+      }
+    },
+    {
+      "key": "warm",
+      "when": {
+        "tempC": {
+          "gte": 30
+        }
+      }
+    },
+    {
+      "key": "sunny",
+      "when": {
+        "owmId": [
+          800,
+          801
+        ],
+        "tempC": {
+          "gte": 24
+        }
+      }
+    },
+    {
+      "key": "pleasant",
+      "when": {}
+    }
+  ],
+  "conditions": {
+    "hot": {
+      "label": "Hot",
+      "color": "#f97316",
+      "animation": "weather/animations/hot.json",
+      "theme": "weather/themes/hot.json",
+      "advice": "advice/hot.json"
+    },
+    "warm": {
+      "label": "Warm",
+      "color": "#fb923c",
+      "animation": "weather/animations/warm.json",
+      "theme": "weather/themes/warm.json",
+      "advice": "advice/warm.json"
+    },
+    "cold": {
+      "label": "Cold",
+      "color": "#38bdf8",
+      "animation": "weather/animations/cold.json",
+      "theme": "weather/themes/cold.json",
+      "advice": "advice/cold.json"
+    },
+    "sunny": {
+      "label": "Sunny",
+      "color": "#f59e0b",
+      "animation": "weather/animations/sunny.json",
+      "theme": "weather/themes/sunny.json",
+      "advice": "advice/sunny.json"
+    },
+    "rain": {
+      "label": "Rain",
+      "color": "#3b82f6",
+      "animation": "weather/animations/rain.json",
+      "theme": "weather/themes/rain.json",
+      "advice": "advice/rain.json"
+    },
+    "snow": {
+      "label": "Snow",
+      "color": "#818cf8",
+      "animation": "weather/animations/snow.json",
+      "theme": "weather/themes/snow.json",
+      "advice": "advice/snow.json"
+    },
+    "fog": {
+      "label": "Fog",
+      "color": "#94a3b8",
+      "animation": "weather/animations/fog.json",
+      "theme": "weather/themes/fog.json",
+      "advice": "advice/fog.json"
+    },
+    "cloudy": {
+      "label": "Cloudy",
+      "color": "#64748b",
+      "animation": "weather/animations/cloudy.json",
+      "theme": "weather/themes/cloudy.json",
+      "advice": "advice/cloudy.json"
+    },
+    "pleasant": {
+      "label": "Pleasant",
+      "color": "#22c55e",
+      "animation": "weather/animations/pleasant.json",
+      "theme": "weather/themes/pleasant.json",
+      "advice": "advice/pleasant.json"
+    }
+  }
+}

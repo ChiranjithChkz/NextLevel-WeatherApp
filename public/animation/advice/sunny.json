@@ -1,0 +1,125 @@
+{
+  "id": "sunny",
+  "emoji": "☀️",
+  "title": "Bright and Sunny",
+  "headline": "Clear skies and strong sun. Great day, just protect your skin and eyes.",
+  "scores": {
+    "comfort": 80,
+    "outdoor": 92,
+    "driving": 85,
+    "exercise": 80,
+    "uvRisk": "high"
+  },
+  "quick": [
+    "Sunscreen and sunglasses before you step out",
+    "Drink water regularly",
+    "Go outside early or late for softer light"
+  ],
+  "notification": "Sunny day ahead. Don't forget sunscreen.",
+  "wear": {
+    "top": "Light breathable shirt",
+    "bottom": "Shorts or light trousers",
+    "shoes": "Comfortable, breathable shoes",
+    "extras": [
+      "Sunglasses",
+      "Cap or hat",
+      "Sunscreen"
+    ]
+  },
+  "carry": [
+    "SPF 30-50 sunscreen",
+    "UV sunglasses",
+    "Water bottle",
+    "Lip balm with SPF"
+  ],
+  "health": {
+    "do": [
+      "Reapply sunscreen every 2 hours",
+      "Take shade breaks",
+      "Drink water regularly"
+    ],
+    "avoid": [
+      "Staring at the sun",
+      "Skipping sunscreen on ears and neck",
+      "Long midday exposure"
+    ],
+    "watchFor": [
+      "Red, tender skin",
+      "Headache or fatigue from sun exposure"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Beach or park",
+      "Photography in golden hour",
+      "Cycling or hiking"
+    ],
+    "indoor": [
+      "Cafe with big windows",
+      "Indoor gym",
+      "Gallery visit"
+    ],
+    "bestTime": "Morning and late afternoon"
+  },
+  "travel": [
+    "Use a sun visor for low-angle glare",
+    "Keep sunglasses handy",
+    "Park in shade when possible"
+  ],
+  "home": [
+    "Dry laundry outside",
+    "Open windows for daylight",
+    "Close blinds in the hottest rooms"
+  ],
+  "people": {
+    "kids": "Hat, sunscreen, and water for outdoor play; shade at noon.",
+    "elderly": "Walk in the morning, wear a hat, and drink water.",
+    "pets": "Hot pavement burns paws; walk on grass and offer water.",
+    "commuters": "Sunglasses and a visor for driving; carry water.",
+    "athletes": "Train before 10am or after 4pm; hydrate."
+  },
+  "rules": [
+    {
+      "when": {
+        "uvIndex": {
+          "gte": 8
+        }
+      },
+      "tip": "Very high UV: limit direct sun and reapply sunscreen every 90 minutes.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "tempC": {
+          "gte": 35
+        }
+      },
+      "tip": "It's hot too: prioritize water and shade.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 11,
+          "lte": 15
+        }
+      },
+      "tip": "Peak UV window. Take cover for a while.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 16,
+          "lte": 18
+        }
+      },
+      "tip": "Golden hour: great light for photos and walks.",
+      "priority": "low"
+    }
+  ],
+  "commonMistakes": [
+    "Believing a tan is protection",
+    "Applying sunscreen only once"
+  ]
+}

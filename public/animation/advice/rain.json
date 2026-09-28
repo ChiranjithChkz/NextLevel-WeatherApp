@@ -1,0 +1,132 @@
+{
+  "id": "rain",
+  "emoji": "🌧️",
+  "title": "Rainy Day Ready",
+  "headline": "Wet weather. Stay dry and take extra care on slippery surfaces.",
+  "scores": {
+    "comfort": 45,
+    "outdoor": 30,
+    "driving": 50,
+    "exercise": 30,
+    "uvRisk": "low"
+  },
+  "quick": [
+    "Grab an umbrella or waterproof jacket",
+    "Wear shoes with good grip",
+    "Leave earlier; roads slow down"
+  ],
+  "notification": "Rain expected. Carry an umbrella and give yourself extra time.",
+  "wear": {
+    "top": "Waterproof jacket",
+    "bottom": "Quick-dry trousers",
+    "shoes": "Waterproof shoes with grip",
+    "extras": [
+      "Umbrella",
+      "Hood or cap",
+      "Spare socks"
+    ]
+  },
+  "carry": [
+    "Compact umbrella",
+    "Waterproof bag cover",
+    "Spare socks",
+    "Power bank",
+    "Microfiber towel"
+  ],
+  "health": {
+    "do": [
+      "Dry off and change out of wet clothes quickly",
+      "Drink something warm",
+      "Wash hands after being outside"
+    ],
+    "avoid": [
+      "Walking through floodwater",
+      "Standing under trees in lightning",
+      "Using phones or electronics with wet hands"
+    ],
+    "watchFor": [
+      "Sniffles or chills after getting soaked",
+      "Slippery tiles and steps",
+      "Waterlogged areas"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Rain walk with a good jacket",
+      "Photography of wet streets"
+    ],
+    "indoor": [
+      "Reading and movies",
+      "Cooking",
+      "Indoor workout or board games"
+    ],
+    "bestTime": "During lulls; check the radar"
+  },
+  "travel": [
+    "Slow down, brake early, and turn headlights on",
+    "Avoid flooded roads",
+    "Keep 3x normal following distance"
+  ],
+  "home": [
+    "Bring laundry inside",
+    "Check for leaks",
+    "Keep doormats and a towel near the entrance"
+  ],
+  "people": {
+    "kids": "Rain boots and jackets, and puddles are fine but avoid deep water.",
+    "elderly": "Postpone outings; wet surfaces raise fall risk.",
+    "pets": "Towel dry after walks and avoid stagnant water.",
+    "commuters": "Leave 15-20 minutes early and keep a dry change of socks.",
+    "athletes": "Move indoors during thunder; light rain runs need grippy shoes."
+  },
+  "rules": [
+    {
+      "when": {
+        "windKph": {
+          "gte": 40
+        }
+      },
+      "tip": "Strong wind with rain: umbrella may fail; use a hooded jacket.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "rainMmPerHour": {
+          "gte": 15
+        }
+      },
+      "tip": "Heavy rain: avoid low-lying roads and underpasses.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "thunder": true
+      },
+      "tip": "Thunderstorm: stay indoors and unplug sensitive electronics.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 17,
+          "lte": 20
+        }
+      },
+      "tip": "Rush-hour rain: expect longer commutes.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "tempC": {
+          "lte": 12
+        }
+      },
+      "tip": "Cold rain: wear an insulating layer under your jacket.",
+      "priority": "medium"
+    }
+  ],
+  "commonMistakes": [
+    "Trusting an umbrella in strong wind",
+    "Driving through standing water"
+  ]
+}

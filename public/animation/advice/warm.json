@@ -1,0 +1,118 @@
+{
+  "id": "warm",
+  "emoji": "🌤️",
+  "title": "Warm and Comfortable",
+  "headline": "Pleasantly warm. Great for outdoor plans with basic sun care.",
+  "scores": {
+    "comfort": 75,
+    "outdoor": 85,
+    "driving": 90,
+    "exercise": 75,
+    "uvRisk": "high"
+  },
+  "quick": [
+    "Light layers are all you need",
+    "Sunscreen still counts on warm days",
+    "Perfect for a walk or a cafe patio"
+  ],
+  "notification": "Nice and warm today. A good day to be outside.",
+  "wear": {
+    "top": "Breathable t-shirt or short-sleeve shirt",
+    "bottom": "Light pants or shorts",
+    "shoes": "Comfortable sneakers or sandals",
+    "extras": [
+      "Cap",
+      "Sunglasses",
+      "Thin layer for evening"
+    ]
+  },
+  "carry": [
+    "Water bottle",
+    "SPF 30 sunscreen",
+    "Light jacket for later"
+  ],
+  "health": {
+    "do": [
+      "Apply sunscreen 15 minutes before heading out",
+      "Drink water through the day",
+      "Enjoy fresh air and daylight"
+    ],
+    "avoid": [
+      "Skipping sunscreen because it isn't 'hot'",
+      "Sitting in a hot parked car"
+    ],
+    "watchFor": [
+      "Sunburn on shoulders, nose, and neck",
+      "Feeling dehydrated during long walks"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Cycling or jogging",
+      "Picnic or park time",
+      "Outdoor dining"
+    ],
+    "indoor": [
+      "Gym session",
+      "Museum visit"
+    ],
+    "bestTime": "Anytime; midday is warmest"
+  },
+  "travel": [
+    "Great conditions for driving and cycling",
+    "Keep water in the car on longer trips"
+  ],
+  "home": [
+    "Open windows in the morning",
+    "Dry laundry outdoors",
+    "Turn AC on only when needed"
+  ],
+  "people": {
+    "kids": "Great for outdoor play; apply sunscreen and offer water breaks.",
+    "elderly": "Comfortable for a walk; go in shade if the sun is strong.",
+    "pets": "Good walking weather; bring water.",
+    "commuters": "Comfortable for walking or cycling to work.",
+    "athletes": "Good for training; hydrate and watch for heat climbing in the afternoon."
+  },
+  "rules": [
+    {
+      "when": {
+        "tempC": {
+          "gte": 32
+        }
+      },
+      "tip": "Getting close to hot: switch to the morning or evening for hard exercise.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "uvIndex": {
+          "gte": 6
+        }
+      },
+      "tip": "UV is strong: sunscreen and sunglasses.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 17
+        }
+      },
+      "tip": "Evening turns cooler; carry a thin layer.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "humidity": {
+          "gte": 75
+        }
+      },
+      "tip": "Humid air feels warmer than the temperature. Wear breathable fabrics.",
+      "priority": "medium"
+    }
+  ],
+  "commonMistakes": [
+    "Assuming clouds mean no UV"
+  ]
+}

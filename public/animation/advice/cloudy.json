@@ -1,0 +1,117 @@
+{
+  "id": "cloudy",
+  "emoji": "☁️",
+  "title": "Overcast Skies",
+  "headline": "Cloudy but mild. Good for outdoor activity; keep a backup plan.",
+  "scores": {
+    "comfort": 70,
+    "outdoor": 78,
+    "driving": 85,
+    "exercise": 80,
+    "uvRisk": "moderate"
+  },
+  "quick": [
+    "Great for walks without harsh sun",
+    "UV can still get through",
+    "Keep a light layer handy"
+  ],
+  "notification": "Cloudy and mild. Good day to get outside.",
+  "wear": {
+    "top": "Light layers",
+    "bottom": "Comfortable everyday pants",
+    "shoes": "Everyday sneakers",
+    "extras": [
+      "Light jacket",
+      "Compact umbrella"
+    ]
+  },
+  "carry": [
+    "Light jacket",
+    "Compact umbrella",
+    "Water bottle"
+  ],
+  "health": {
+    "do": [
+      "Use sunscreen; UV passes through clouds",
+      "Take advantage of cooler exercise weather",
+      "Keep hydrated"
+    ],
+    "avoid": [
+      "Skipping sunscreen on long outdoor days",
+      "Ignoring sudden weather changes"
+    ],
+    "watchFor": [
+      "Sudden rain when clouds thicken",
+      "Cooler wind at dusk"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Jogging and cycling",
+      "Long walks",
+      "City exploring"
+    ],
+    "indoor": [
+      "Cafe work session",
+      "Museums"
+    ],
+    "bestTime": "All day"
+  },
+  "travel": [
+    "Normal driving conditions",
+    "Use headlights if it gets dim"
+  ],
+  "home": [
+    "Open windows for fresh air",
+    "Dry laundry with a backup plan"
+  ],
+  "people": {
+    "kids": "Good for outdoor play; bring a light jacket.",
+    "elderly": "Comfortable for walks; watch for wind.",
+    "pets": "Comfortable weather for long walks.",
+    "commuters": "Carry a compact umbrella just in case.",
+    "athletes": "Cooler temperatures are good for longer sessions."
+  },
+  "rules": [
+    {
+      "when": {
+        "rainChance": {
+          "gte": 50
+        }
+      },
+      "tip": "Rain likely: pack an umbrella.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "uvIndex": {
+          "gte": 5
+        }
+      },
+      "tip": "UV can be moderate even under clouds. Apply sunscreen.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "windKph": {
+          "gte": 25
+        }
+      },
+      "tip": "Breezy: bring a light windbreaker.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 18
+        }
+      },
+      "tip": "Cooler after sunset; carry a light layer.",
+      "priority": "low"
+    }
+  ],
+  "commonMistakes": [
+    "Assuming clouds block UV",
+    "Leaving the umbrella at home"
+  ]
+}

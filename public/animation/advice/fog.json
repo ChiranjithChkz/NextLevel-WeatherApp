@@ -1,0 +1,122 @@
+{
+  "id": "fog",
+  "emoji": "🌫️",
+  "title": "Low Visibility",
+  "headline": "Fog lowers visibility. Slow down and make yourself visible.",
+  "scores": {
+    "comfort": 50,
+    "outdoor": 45,
+    "driving": 30,
+    "exercise": 40,
+    "uvRisk": "low"
+  },
+  "quick": [
+    "Slow down and use low-beam headlights",
+    "Wear bright or reflective clothing",
+    "Keep extra distance from others"
+  ],
+  "notification": "Foggy out there. Drive slowly and use your low beams.",
+  "wear": {
+    "top": "Bright or reflective jacket",
+    "bottom": "Comfortable everyday trousers",
+    "shoes": "Non-slip shoes",
+    "extras": [
+      "Reflective strip",
+      "Light scarf or mask if air is damp or hazy"
+    ]
+  },
+  "carry": [
+    "Phone charged",
+    "Flashlight",
+    "Reflective band",
+    "Lens cloth for glasses"
+  ],
+  "health": {
+    "do": [
+      "Wear a mask if air feels heavy or hazy",
+      "Keep windows closed if humidity is high",
+      "Stay visible outdoors"
+    ],
+    "avoid": [
+      "High beams (they reflect in fog)",
+      "Overtaking on roads",
+      "Running near traffic"
+    ],
+    "watchFor": [
+      "Sudden drops in visibility",
+      "Slippery damp surfaces",
+      "Breathing discomfort in polluted fog"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Slow walks in a safe park",
+      "Moody photography"
+    ],
+    "indoor": [
+      "Gym or yoga",
+      "Reading and cooking"
+    ],
+    "bestTime": "Late morning as fog lifts"
+  },
+  "travel": [
+    "Low beams and fog lights only",
+    "Slow down and keep a wide gap",
+    "Use lane markings as guides",
+    "Delay travel if visibility is very low"
+  ],
+  "home": [
+    "Keep windows shut",
+    "Use a dehumidifier if air feels damp",
+    "Turn on lights earlier"
+  ],
+  "people": {
+    "kids": "Bright clothes, hold hands near roads, and avoid walking alone.",
+    "elderly": "Wait for the fog to lift before going out.",
+    "pets": "Use a light-up collar and keep them on a leash.",
+    "commuters": "Leave early; allow extra time and use visible transit.",
+    "athletes": "Train indoors or on a treadmill; roads are risky."
+  },
+  "rules": [
+    {
+      "when": {
+        "visibilityM": {
+          "lte": 200
+        }
+      },
+      "tip": "Very low visibility: delay non-essential driving.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "visibilityM": {
+          "lte": 1000
+        }
+      },
+      "tip": "Use low beams and reduce speed by a third.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "lte": 9
+        }
+      },
+      "tip": "Morning fog usually lifts by late morning; consider waiting.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "aqi": {
+          "gte": 150
+        }
+      },
+      "tip": "Poor air quality: wear a mask and limit time outside.",
+      "priority": "high"
+    }
+  ],
+  "commonMistakes": [
+    "Using high beams",
+    "Following the taillights of the car ahead too closely"
+  ]
+}

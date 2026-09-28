@@ -1,0 +1,125 @@
+{
+  "id": "cold",
+  "emoji": "🥶",
+  "title": "Bundle Up",
+  "headline": "Cold conditions. Layer up and protect your hands, ears, and face.",
+  "scores": {
+    "comfort": 30,
+    "outdoor": 45,
+    "driving": 65,
+    "exercise": 55,
+    "uvRisk": "low"
+  },
+  "quick": [
+    "Layer: base, warmth, wind-proof shell",
+    "Cover your hands, ears, and neck",
+    "Warm drinks help you stay comfortable"
+  ],
+  "notification": "Cold outside. Layer up before you head out.",
+  "wear": {
+    "top": "Thermal base layer, sweater, windproof jacket",
+    "bottom": "Lined or thermal trousers",
+    "shoes": "Insulated shoes with wool socks",
+    "extras": [
+      "Beanie",
+      "Gloves",
+      "Scarf"
+    ]
+  },
+  "carry": [
+    "Extra pair of socks",
+    "Lip balm and moisturizer",
+    "Thermos with a hot drink",
+    "Hand warmers"
+  ],
+  "health": {
+    "do": [
+      "Warm up indoors before going out",
+      "Wear several thin layers, not one thick one",
+      "Keep skin moisturized",
+      "Drink warm fluids"
+    ],
+    "avoid": [
+      "Cotton next to skin if you sweat",
+      "Going outside with wet hair",
+      "Long exposure without gloves or hat"
+    ],
+    "watchFor": [
+      "Numb, pale, or waxy fingers and toes",
+      "Shivering that won't stop",
+      "Slurred speech or confusion (seek help)"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Brisk walks",
+      "Hot-drink cafe stops",
+      "Winter photography"
+    ],
+    "indoor": [
+      "Yoga or stretching",
+      "Home cooking",
+      "Indoor sports"
+    ],
+    "bestTime": "Late morning to early afternoon"
+  },
+  "travel": [
+    "Give the car a minute to warm up",
+    "Carry a blanket and phone charger",
+    "Leave extra time for your trip"
+  ],
+  "home": [
+    "Seal window gaps",
+    "Wear socks indoors",
+    "Use warm-toned light and hot drinks to feel cozy"
+  ],
+  "people": {
+    "kids": "Dress in layers, keep hands and ears covered, and limit time outside.",
+    "elderly": "Keep the home warm, wear layers indoors, and avoid long outings.",
+    "pets": "Short walks; small and short-haired pets need a coat.",
+    "commuters": "Wear gloves, allow more time, and keep the phone warm.",
+    "athletes": "Longer warm-up; wear layers you can shed."
+  },
+  "rules": [
+    {
+      "when": {
+        "tempC": {
+          "lte": 5
+        }
+      },
+      "tip": "Near freezing: cover extremities and limit time outside.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "windKph": {
+          "gte": 20
+        }
+      },
+      "tip": "Wind chill makes it feel colder. Add a windproof layer.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 18
+        }
+      },
+      "tip": "It gets colder after dark; carry an extra layer.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "humidity": {
+          "gte": 80
+        }
+      },
+      "tip": "Damp cold feels sharper. Keep clothes dry.",
+      "priority": "medium"
+    }
+  ],
+  "commonMistakes": [
+    "Overdressing indoors, then sweating and chilling",
+    "Skipping gloves on a short trip"
+  ]
+}

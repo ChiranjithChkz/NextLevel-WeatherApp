@@ -1,0 +1,139 @@
+{
+  "id": "hot",
+  "emoji": "🔥",
+  "title": "Beat the Heat",
+  "headline": "Extreme heat. Cool down first, plan everything else around it.",
+  "scores": {
+    "comfort": 15,
+    "outdoor": 25,
+    "driving": 60,
+    "exercise": 20,
+    "uvRisk": "very-high"
+  },
+  "quick": [
+    "Drink water before you feel thirsty",
+    "Stay out of direct sun 11am to 4pm",
+    "Wear light, loose, light-colored clothes"
+  ],
+  "notification": "Heat alert: hydrate often and limit time in the sun today.",
+  "wear": {
+    "top": "Loose cotton or linen, light color",
+    "bottom": "Breathable shorts or thin trousers",
+    "shoes": "Open, ventilated sandals or mesh sneakers",
+    "extras": [
+      "Wide-brim hat",
+      "UV sunglasses",
+      "Cooling towel"
+    ]
+  },
+  "carry": [
+    "Refillable water bottle",
+    "SPF 50 sunscreen",
+    "Electrolyte sachet",
+    "Handheld fan or umbrella for shade"
+  ],
+  "health": {
+    "do": [
+      "Sip 150-250 ml of water every 20 minutes when outside",
+      "Add electrolytes if you sweat heavily",
+      "Take cool showers and rest in shade or AC",
+      "Eat light meals like fruit, salad, yogurt"
+    ],
+    "avoid": [
+      "Strenuous exercise at midday",
+      "Alcohol and lots of caffeine",
+      "Dark, tight clothing",
+      "Leaving anyone in a parked car"
+    ],
+    "watchFor": [
+      "Headache, dizziness, or nausea",
+      "Heavy sweating that suddenly stops",
+      "Hot, dry skin or confusion (heat stroke: seek urgent care)"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Early-morning walk before 8am",
+      "Swimming",
+      "Evening stroll after sunset"
+    ],
+    "indoor": [
+      "Malls, libraries, cafes",
+      "Home workout with a fan",
+      "Movie or gaming session"
+    ],
+    "bestTime": "Before 8am or after 6pm"
+  },
+  "travel": [
+    "Park in shade and crack windows for airflow",
+    "Check tire pressure; heat raises it",
+    "Keep water in the car"
+  ],
+  "home": [
+    "Close curtains on sun-facing windows by 10am",
+    "Cook early or use no-cook meals",
+    "Run AC at 24-26C and use fans to spread the cool air"
+  ],
+  "people": {
+    "kids": "Dress in light layers, offer water every 30 minutes, keep play indoors at midday.",
+    "elderly": "Stay in cool rooms, check in by phone twice a day, avoid stairs and errands at noon.",
+    "pets": "Walk before 8am, test pavement with your palm, always provide shade and water.",
+    "commuters": "Carry water, avoid peak-sun waits, choose shaded routes.",
+    "athletes": "Move sessions to dawn, cut intensity 20-30%, weigh before and after to track fluid loss."
+  },
+  "rules": [
+    {
+      "when": {
+        "tempC": {
+          "gte": 38
+        }
+      },
+      "tip": "Extreme heat: avoid outdoor work between 11am and 4pm.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "humidity": {
+          "gte": 70
+        },
+        "tempC": {
+          "gte": 32
+        }
+      },
+      "tip": "High humidity blocks sweat cooling. Take extra rest breaks.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "uvIndex": {
+          "gte": 8
+        }
+      },
+      "tip": "UV is very high: sunscreen, hat, and shade are essential.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 11,
+          "lte": 16
+        }
+      },
+      "tip": "Peak heat window. Shift outdoor plans to morning or evening.",
+      "priority": "medium"
+    },
+    {
+      "when": {
+        "windKph": {
+          "gte": 25
+        }
+      },
+      "tip": "Hot wind dries you out quickly. Drink more than usual.",
+      "priority": "medium"
+    }
+  ],
+  "commonMistakes": [
+    "Waiting until you're thirsty to drink",
+    "Relying on cold sugary drinks to hydrate"
+  ]
+}

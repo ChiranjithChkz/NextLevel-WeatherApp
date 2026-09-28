@@ -1,0 +1,127 @@
+{
+  "id": "snow",
+  "emoji": "❄️",
+  "title": "Snowy Conditions",
+  "headline": "Snowfall. Keep warm, watch your footing, and travel only if needed.",
+  "scores": {
+    "comfort": 35,
+    "outdoor": 50,
+    "driving": 30,
+    "exercise": 35,
+    "uvRisk": "moderate"
+  },
+  "quick": [
+    "Wear waterproof boots with traction",
+    "Layer up and keep your head covered",
+    "Take smaller steps on icy paths"
+  ],
+  "notification": "Snow today. Dress warm and take it slow.",
+  "wear": {
+    "top": "Thermal layer, sweater, insulated waterproof coat",
+    "bottom": "Insulated waterproof pants",
+    "shoes": "Waterproof boots with grip",
+    "extras": [
+      "Hat",
+      "Waterproof gloves",
+      "Scarf",
+      "Sunglasses for snow glare"
+    ]
+  },
+  "carry": [
+    "Hand warmers",
+    "Extra socks",
+    "Lip balm",
+    "Ice scraper",
+    "Thermos"
+  ],
+  "health": {
+    "do": [
+      "Warm up with hot drinks",
+      "Take breaks when shoveling",
+      "Keep moisture off skin"
+    ],
+    "avoid": [
+      "Walking with hands in pockets on ice",
+      "Overexertion while shoveling",
+      "Wet cotton clothes"
+    ],
+    "watchFor": [
+      "Numbness or pale skin in fingers and toes",
+      "Chest pain when shoveling (stop and get help)",
+      "Black ice on paths"
+    ]
+  },
+  "activity": {
+    "best": [
+      "Snow play and photos",
+      "Sledding",
+      "Short winter walks"
+    ],
+    "indoor": [
+      "Cocoa and a movie",
+      "Baking",
+      "Board games"
+    ],
+    "bestTime": "Late morning when paths are cleared"
+  },
+  "travel": [
+    "Travel only if needed",
+    "Winter tires or chains",
+    "Carry a blanket, flashlight, and charger",
+    "Brake gently and keep a long gap"
+  ],
+  "home": [
+    "Stock food and water",
+    "Clear walkways early",
+    "Check heating and keep pipes warm"
+  ],
+  "people": {
+    "kids": "Waterproof layers and short play sessions; warm up indoors between rounds.",
+    "elderly": "Stay in; ask for help clearing paths to avoid falls.",
+    "pets": "Wipe paws to remove salt and ice; limit time out.",
+    "commuters": "Leave early and check transport updates.",
+    "athletes": "Shorten sessions; use trail shoes and layer well."
+  },
+  "rules": [
+    {
+      "when": {
+        "tempC": {
+          "lte": -5
+        }
+      },
+      "tip": "Frostbite risk: cover all skin and limit time outside.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "snowCmPerHour": {
+          "gte": 3
+        }
+      },
+      "tip": "Heavy snowfall: avoid non-essential travel.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "windKph": {
+          "gte": 30
+        }
+      },
+      "tip": "Blowing snow and wind chill: add a face cover.",
+      "priority": "high"
+    },
+    {
+      "when": {
+        "hour": {
+          "gte": 17
+        }
+      },
+      "tip": "Paths refreeze after dark. Watch for ice.",
+      "priority": "medium"
+    }
+  ],
+  "commonMistakes": [
+    "Driving fast on packed snow",
+    "Shoveling heavy snow without warming up"
+  ]
+}
